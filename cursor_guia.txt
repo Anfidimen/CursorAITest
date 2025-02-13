@@ -1,0 +1,150 @@
+# GUÍA DE CURSOR - EDITOR DE CÓDIGO POTENCIADO POR IA
+
+## ¿Qué es Cursor?
+Cursor es un editor de código moderno basado en VSCode que integra capacidades de inteligencia artificial para ayudarte a programar de manera más eficiente. Diseñado para desarrolladores modernos, combina la familiaridad de VSCode con el poder de la IA generativa.
+
+## Características Principales
+
+### 1. Autocompletado Inteligente
+* Completa código basándose en el contexto
+* Sugiere bloques completos de código
+* Entiende la intención del desarrollador
+* Aprende de tus patrones de código
+* Soporta múltiples lenguajes de programación
+
+### 2. Chat con IA Integrado
+* Asistente de programación 24/7
+  - Consultas técnicas en tiempo real
+  - Resolución de dudas específicas de código
+  - Soporte multilingüe
+
+* Análisis y Mejora de Código
+  - Explicaciones detalladas línea por línea
+  - Sugerencias de optimización y mejores prácticas
+  - Detección de potenciales bugs y vulnerabilidades
+  - Refactorización inteligente de código
+
+* Debugging Avanzado
+  - Análisis de errores en tiempo real
+  - Sugerencias de solución paso a paso
+  - Identificación de problemas de lógica
+  - Debugging predictivo
+
+* Documentación Inteligente
+  - Generación automática de comentarios
+  - Creación de documentación técnica
+  - Explicaciones de código para diferentes niveles de experiencia
+
+### 3. Generación de Código
+* Convierte comentarios en código funcional
+* Genera tests automáticamente
+* Refactoriza código existente
+* Crea documentación automática
+* Implementa patrones de diseño
+* Genera código boilerplate
+* Traduce código entre lenguajes
+
+### 4. Comandos Útiles
+* `Cmd/Ctrl + K`: Abre el chat de IA
+* `Cmd/Ctrl + L`: Genera código desde una descripción
+* `Cmd/Ctrl + I`: Explica el código seleccionado
+* `Cmd/Ctrl + Shift + L`: Refactoriza el código seleccionado
+* `Cmd/Ctrl + Shift + D`: Genera documentación
+* `Cmd/Ctrl + Shift + T`: Genera tests
+
+## Ventajas
+* Interfaz familiar (similar a VSCode)
+* Integración perfecta de IA
+* Soporte para múltiples lenguajes
+* Gratuito para uso básico
+* Actualizaciones frecuentes
+* Personalizable con extensiones
+* Integración con Git
+* Soporte para desarrollo remoto
+* Debugging avanzado
+* Rendimiento optimizado
+
+## Consejos de Uso
+1. Sé específico en tus preguntas al chat
+2. Utiliza comentarios descriptivos para la generación de código
+3. Revisa siempre el código generado
+4. Aprovecha el autocompletado para escribir más rápido
+5. Usa snippets personalizados
+6. Aprende los atajos de teclado
+7. Mantén el editor actualizado
+8. Utiliza el control de versiones integrado
+
+## Mejores Prácticas
+
+### 1. Documentación
+* Documenta tu código mientras lo escribes
+* Utiliza la generación automática como punto de partida
+* Mantén un estilo consistente
+
+### 2. Testing
+* Genera tests junto con el código nuevo
+* Mantén una buena cobertura de pruebas
+* Utiliza TDD cuando sea posible
+
+### 3. Seguridad
+* Revisa el código generado por vulnerabilidades
+* Mantén las dependencias actualizadas
+* Sigue las mejores prácticas de seguridad
+
+### 4. Optimización
+* Utiliza las sugerencias de optimización de la IA
+* Perfila tu código regularmente
+* Implementa mejoras incrementales
+
+## Configuración Recomendada
+
+### 1. Editor
+* Tema oscuro para menor fatiga visual
+* Fuente monoespaciada (recomendado: Fira Code)
+* Autoguardado activado
+* Formateo automático al guardar
+
+### 2. IA
+* Ajusta la agresividad del autocompletado
+* Personaliza los prompts del chat
+* Configura los modelos de IA preferidos
+* Define tus propios snippets
+
+### 3. Git
+* Configura la integración con tu repositorio
+* Establece reglas de commit
+* Activa la previsualización de cambios
+
+## Solución de Problemas Comunes
+
+### 1. Autocompletado lento
+* Verifica tu conexión a internet
+* Reduce el tamaño de los archivos
+* Ajusta la configuración de la IA
+
+### 2. Errores de generación
+* Sé más específico en tus prompts
+* Divide las tareas en partes más pequeñas
+* Verifica la sintaxis de tu código
+
+### 3. Problemas de rendimiento
+* Cierra pestañas no utilizadas
+* Limpia la caché regularmente
+* Actualiza el editor
+
+## Recursos Adicionales
+* [Documentación oficial](https://cursor.sh/docs)
+* [Comunidad](https://discord.gg/cursor)
+* [GitHub](https://github.com/cursor-editor)
+* [Blog](https://cursor.sh/blog)
+* [Tutoriales](https://cursor.sh/learn)
+
+> **Nota**: Cursor es una herramienta de asistencia. Siempre revisa y comprende el código que generes o modifiques. La IA es una ayuda, no un reemplazo para el pensamiento crítico y la experiencia del desarrollador.
+
+## Actualizaciones y Futuro
+* Nuevos modelos de IA
+* Mejoras en la generación de código
+* Soporte para más lenguajes
+* Características de colaboración
+* Integración con más herramientas
+* Mejoras en el rendimiento 
