@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Bounce Arena</title>
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        body {
+            background-color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Courier New', monospace;
+            color: #00ffff;
+            text-shadow: 0 0 5px #00ffff;
+            background: linear-gradient(135deg, #000022, #000066);
+            width: 100%;
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: fit-content;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #00ffff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin: 0 0 30px 0;
+            font-size: 2.5em;
+            text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            text-align: center;
+            animation: glow 2s ease-in-out infinite alternate;
+        }
+
+        .arcade-screen {
+            border: 4px solid #00ffff;
+            border-radius: 10px;
+            padding: 20px;
+            background: linear-gradient(45deg, #000033, #000044);
+            box-shadow: 0 0 20px #00ffff, inset 0 0 20px #00ffff;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .arcade-screen::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            border: 2px solid #00ffff;
+            border-radius: 15px;
+            opacity: 0.5;
+            pointer-events: none;
+        }
+
+        canvas {
+            border: 2px solid #00ffff;
+            background-color: #000022;
+            box-shadow: 0 0 10px #00ffff;
+            display: block;
+        }
+
+        .controls {
+            width: 100%;
+            margin-top: 20px;
+            text-align: center;
+            padding: 15px;
+            border: 2px solid #00ffff;
+            border-radius: 5px;
+            background: rgba(0, 0, 51, 0.5);
+            box-shadow: 0 0 10px #00ffff;
+            backdrop-filter: blur(5px);
+            box-sizing: border-box;
+        }
+
+        .controls p {
+            margin: 8px 0;
+            font-size: 1.1em;
+            text-shadow: 0 0 5px #00ffff;
+        }
+
+        @keyframes glow {
+            from {
+                text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+            }
+            to {
+                text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff, 0 0 40px #00ffff;
+            }
+        }
+
+        /* Efecto de líneas de fondo */
+        .background-lines {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0.1;
+            background: repeating-linear-gradient(
+                0deg,
+                #00ffff,
+                #00ffff 1px,
+                transparent 1px,
+                transparent 20px
+            );
+        }
+
+        /* Efecto de viñeta */
+        .vignette {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            pointer-events: none;
+            background: radial-gradient(
+                circle,
+                transparent 50%,
+                rgba(0, 0, 33, 0.8) 150%
+            );
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-lines"></div>
+    <div class="vignette"></div>
+    <div class="container">
+        <h1>Retro Bounce Arena</h1>
+        <div class="arcade-screen">
+            <canvas id="gameCanvas" width="800" height="400"></canvas>
+        </div>
+        <div class="controls">
+            <p>⚪ Bola Verde: A/D - Mover, W - Saltar</p>
+            <p>⚪ Bola Roja: ←/→ - Mover, ↑ - Saltar</p>
+            <p>⚪ Bola Azul: J/L - Mover, I - Saltar</p>
+        </div>
+    </div>
+</body>
+<script src="game.js"></script>
+</html> 
