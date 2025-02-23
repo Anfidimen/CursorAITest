@@ -1,15 +1,51 @@
-# Ansh & Riley Full-Stack Template
+# Generador de Imágenes con IA
 
-This is a full-stack template project for Software Composers to create  applications with AI.
+Un generador de imágenes moderno construido con Next.js 14, React y Tailwind CSS. La aplicación permite a los usuarios generar imágenes a partir de descripciones textuales.
 
-## Getting started
-To create a new project, you go to `/paths`, choose from our list of Paths, and then use Cursor's Composer feature to quickly scaffold your project!
+## Características
 
-You can also edit the Path's prompt template to be whatever you like!
+- 🎨 Interfaz moderna y responsive
+- ⚡ Generación de imágenes en tiempo real
+- 🔄 Animaciones suaves y feedback visual
+- 📱 Diseño adaptable a todos los dispositivos
 
-## Technologies used
-This doesn't really matter, but is useful for the AI to understand more about this project. We are using the following technologies
-- React with Next.js 14 App Router
-- TailwindCSS
-- Firebase Auth, Storage, and Database
-- Multiple AI endpoints including OpenAI, Anthropic, and Replicate using Vercel's AI SDK
+## Tecnologías
+
+- Next.js 14
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## Instalación
+
+1. Clona el repositorio:
+\`\`\`bash
+git clone [URL_DEL_REPOSITORIO]
+\`\`\`
+
+2. Instala las dependencias:
+\`\`\`bash
+npm install
+\`\`\`
+
+3. Inicia el servidor de desarrollo:
+\`\`\`bash
+npm run dev
+\`\`\`
+
+## Uso
+
+1. Abre la aplicación en tu navegador
+2. Escribe una descripción de la imagen que deseas generar
+3. Presiona Enter o haz clic en "Generar"
+4. Espera a que se generen las imágenes
+5. ¡Listo! Podrás ver las imágenes generadas
+
+## Contribuir
+
+Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría hacer.
+
+## Licencia
+
+MIT
